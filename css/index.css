@@ -1,0 +1,172 @@
+body{
+    font-family: 'PT Sans',sans-serif
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.Sidebar
+{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.sidebar-content a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidebar-content a:hover {
+    color: #f1f1f1;
+  }
+.sidebar-content
+{
+    width: 25%;
+    z-index: 1232222;
+    background-color: #000000;
+}
+.sidebar-content .closebtn
+{
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px
+}
+.sidebar-overlay{
+    width: 75%;
+    background-color: #000000;
+    opacity: 0.7;
+}
+.nav-btn{
+    background: none;
+    text-decoration: none !important;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: calc(1em + 8px);
+    border: none;
+}
+.main-nav{
+    min-height: 80px;
+}
+.logo-img{
+    height: 32px;
+    width: 64px;
+}
+.intro-section{
+    min-height: 500px;
+   width: 100%;
+    background-color:#fff;
+}
+.intro-img{
+height: 100%;
+width: 100%;
+}
+.intro-img img{
+    width: 1088px;
+    object-position: 0% 5.3%;
+    /* left: auto; */
+    right: 0;
+    }
+
+    .u-text-palette-2-base{
+        color: #6733e2 !important;
+    }
+
+    .intro-content .title{
+    letter-spacing: 2px;
+    font-size: 3rem;
+    line-height: 1;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    flex-shrink: 0;
+    }
+    .intro-elements p{
+        background-image: none;
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin: 31px 0 0;
+    }
+    .intro-elements {
+        margin-left: 95px;
+        width: 45%;
+        padding: 50px;
+    }
+    .u-text{
+        word-wrap: break-word;
+    }
+    .intro-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .intro-btn{
+        letter-spacing: 4px;
+    background-image: none;
+    border-style: solid;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 35px auto 0 0;
+    padding: 14px 59px 15px 58px;
+        color: #6733e2!important;
+    }
+    .intro-btn:hover{
+        background-color:#6733e2;
+    border-color: #6733e2;
+    color: #fff!important;
+    }
+    .intro-content-img{
+        height: 500px!important;
+        width: 65%;
+        background: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/43f490560f0751fbb3631f45/fggg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+    }
+
+    .offer-section{
+        width: 100%;
+        background-color:#6733e2 ;
+        padding-top: 10px;
+    
+    }
+    .online-Assessment{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .u-text-h1{
+        font-size: 1.75rem;
+    font-weight: 700;
+    color: #f8dd28 !important;
+    }
+    .u-text-p{
+        font-size: 1.2rem;
+        color: #fff;
+        text-align: center;
+    }
+    .u-text-h3{
+        text-transform: uppercase;
+        color: #fff;
+        font-family: Lato, serif;
+    font-weight: 700;
+    }
+    .icon-img{
+        height: 90px;
+    margin-left: -12px;
+    }
+    ul {
+       
+        padding:5;
+        margin:5;
+    }
+    
